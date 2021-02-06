@@ -1,0 +1,54 @@
+body
+{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #201120;
+	color: white;
+	overflow-x: hidden;
+}
+.header
+{
+	text-align: center;
+	font-size: 2.5vw;
+}
+.navigation_pannel
+{
+	display: flex;
+	flex-direction: row;
+
+	width: 100%;
+}
+.button
+{
+	border-width: 0.5vw;
+	border-color: #3a3b3d;
+	background-color: #3a3b3d;
+	border-style: groove;
+	width: 25%;
+	text-align: center;
+	font-size: 1.5vw;
+}
+.button:hover
+{
+	border-style: ridge;
+	box-shadow: 0.1vw 0.2vw white;
+	border-width: 0.2vw;
+}
+.button a
+{
+	text-decoration: none;
+	color: white;
+}
+.main_img
+{
+	width: 65%;
+	position: relative;
+	left: 17.5%;
+}
+.main_text
+{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	left: 5vw;
+  	width: 90vw;
+}
